@@ -18,4 +18,4 @@ print("Olá {}, bem vindo a disciplina de programação."
 
 print("\n\nUsando strings formatadas")
 print(f"Olá {nome}, bem vindo a disciplina de programação." 
-      " Parabéns pelo seu primeiro hello world!"
+      " Parabéns pelo seu primeiro hello world!")
