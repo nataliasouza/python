@@ -10,6 +10,7 @@
 #expressão (not a), ele inverterá o valor do argumento. se um dos argumentos for verdadeiro, a
 #operação o transformará em falso e vice-versa. 
 
+#Ordem de precedência: not primeiro, and em seguida e or por último.
 #Livro - Página 24
 
 quantidade_de_faltas = int(input("Digite a quantidade de faltas: "))
@@ -19,3 +20,19 @@ if quantidade_de_faltas <= 5 and media_final >= 7:
     print("\nAluno aprovado!")
 else:
     print("\nAluno reprovado!")
+
+
+#Livro - Página 25
+
+A = 15
+B = 9
+C = 9
+
+print("\n\n---------------------------------------")
+print("\nTestando a precedência de AND | OR\n")
+print("(B == C or A < B and A < C):")
+print(B == C or A < B and A < C)
+
+print("\n((B == C or A < B) and A < C ):")
+print((B == C or A < B) and A < C )
+
