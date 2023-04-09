@@ -26,7 +26,7 @@ else:
     r = a - b
     print(r)
 
-#Estrutura condicional
+#Estrutura condicional encadeada
 
 cod_compra = 5111
 
