@@ -9,6 +9,7 @@
 #Por exemplo, quando queremos solicitar e testar se o número digitado pelo usuário
 #é par ou ímpar. Quando ele digitar zero, o programa se encerra. 
 
+#Livro - página 27
 numero = 1
 
 while numero != 0:
