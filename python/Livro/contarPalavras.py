@@ -16,8 +16,11 @@ print(f"Texto utilizando replace():\n", (texto))
 
 print(f"\nTamanho do texto = {len(texto)}")
 lista_palavras = texto.split()
-print(f"Tamanho da lista de palavras = {len(lista_palavras)}")
+
+print(f"\nAs 10 primeiras palavras do texto = ",(lista_palavras[:10]))
+
+print(f"\nTamanho da lista de palavras = {len(lista_palavras)}")
 
 total = lista_palavras.count("string") + lista_palavras.count("strings")
 
-print(f"Quantidade de vezes que string ou strings aparecem = {total}")
+print(f"\nQuantidade de vezes que string ou strings aparecem = {total}")
