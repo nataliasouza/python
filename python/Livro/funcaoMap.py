@@ -8,7 +8,7 @@
 print("Exemplo 1")
 linguagens = '''Python Java JavaScript C C# C++ Swift Go Kotlin'''.split()
 
-print(linguagens)
+print(f"\nA lista: {linguagens}")
 
 #Fazendo da forma abaixo(linha 14) não precisa aplicar o construtor list() para fazer a conversão como na linha 18
 #nova_lista = list(map(lambda x: x.lower(), linguagens)) 
@@ -23,4 +23,4 @@ print("\n\nExemplo 2")
 numeros = [0, 1, 2, 3, 4, 5]
 
 quadrados = list(map(lambda x: x*x, numeros))
-print(f"Lista com o número elevado a ele mesmo = {quadrados}\n")
+print(f"\nLista com o número elevado a ele mesmo = {quadrados}\n")
