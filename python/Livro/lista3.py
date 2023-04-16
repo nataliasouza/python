@@ -3,7 +3,9 @@
 
 lista = ['Python', 30.61, "Java", 51 , ['a', 'b', 20], "maça"]
 
-print(f"Tamanho da lista = {len(lista)}")
+print(lista)
+
+print(f"\nTamanho da lista = {len(lista)}")
 
 for i, item in enumerate(lista):
     print(f"Posição = {i},\t valor = {item} -----------------> tipo individual = {type(item)}")
