@@ -34,3 +34,15 @@ print("\n cadastro['nome'][2] = ", cadastro['nome'][2])
 
 #acessa os valores da posição 2 até o final da lista atribuída à chave 'nome'
 print("\n cadastro['idade'][2:] = ", cadastro['idade'][2:])
+
+
+#a função len() retorna quantas chaves um dicionário possui. No entanto,
+#e se quiséssemos saber o total de elementos somando quantos há em cada chave? 
+
+print(len(cadastro['nome']))
+print(len(cadastro['cidade']))
+print(len(cadastro['idade']))
+
+qtde_itens = sum([len(cadastro[chave]) for chave in cadastro])
+
+print(f"\n\nQuantidade de elementos no dicionário = {qtde_itens}")
